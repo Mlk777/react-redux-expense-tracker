@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 //Redux
 import { Provider } from 'react-redux';
 import store from './store';
+
+//Components
 import Header from './components/Header';
 import Balance from './components/Balance';
 import TransactionList from './components/TransactionList';

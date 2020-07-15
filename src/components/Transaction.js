@@ -1,20 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { deleteTransaction, setEdit, setCurrent } from '../actions/transaction';
-// import { editTransaction } from '../actions/transaction';
 
 import { connect } from 'react-redux';
 
 const Transaction = ({
   transaction,
   deleteTransaction,
-  // editTransaction,
   setEdit,
   setCurrent,
 }) => {
   const handleEdit = () => {
     setEdit();
-    // editTransaction(transaction.id);
     setCurrent(transaction);
   };
   return (

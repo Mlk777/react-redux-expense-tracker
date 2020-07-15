@@ -9,7 +9,6 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     publicPath: '/',
     filename: 'bundle.js',
-    // filename: 'bundle.[hash].js',
   },
   plugins: [
     new MiniCssExtractPlugin({
